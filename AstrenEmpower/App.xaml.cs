@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using AstrenEmpower.Services;
 using AstrenEmpower.Views;
+using System.Diagnostics;
 
 namespace AstrenEmpower
 {
@@ -24,7 +25,8 @@ namespace AstrenEmpower
                 DependencyService.Register<MockDataStore>();
             else
                 DependencyService.Register<AzureDataStore>();
-            MainPage = new MainPage();
+
+            MainPage = new NavigationPage(new WelcomePage());
         }
 
         protected override void OnStart()
@@ -38,5 +40,23 @@ namespace AstrenEmpower
         protected override void OnResume()
         {
         }
+
+        public void NavigationMain(String to)
+        {
+            MainPage = new MainPage();
+            switch (to)
+            {
+                case "welcome":
+                    MainPage = new NavigationPage(new WelcomePage());
+                    break;
+                case "afterLogin":
+                    MainPage = new MainPage();
+                    break;
+                default:
+                    Debug.WriteLine($"Error cannot find key {to}");
+                    break;
+            }
+        }
+
     }
 }

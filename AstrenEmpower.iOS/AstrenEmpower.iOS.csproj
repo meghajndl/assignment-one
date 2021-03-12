@@ -122,6 +122,21 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\arrow_circle_up.png" />
+    <BundleResource Include="Resources\arrow_circle_up%402x.png" />
+    <BundleResource Include="Resources\arrow_circle_up%403x.png" />
+    <BundleResource Include="Resources\envelope.png" />
+    <BundleResource Include="Resources\envelope%402x.png" />
+    <BundleResource Include="Resources\envelope%403x.png" />
+    <BundleResource Include="Resources\shopping_cart_arrow_down.png" />
+    <BundleResource Include="Resources\shopping_cart_arrow_down%402x.png" />
+    <BundleResource Include="Resources\shopping_cart_arrow_down%403x.png" />
+    <BundleResource Include="Resources\user_profile.png" />
+    <BundleResource Include="Resources\user_profile%402x.png" />
+    <BundleResource Include="Resources\user_profile%403x.png" />
+    <BundleResource Include="Resources\wpexplorer.png" />
+    <BundleResource Include="Resources\wpexplorer%402x.png" />
+    <BundleResource Include="Resources\wpexplorer%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

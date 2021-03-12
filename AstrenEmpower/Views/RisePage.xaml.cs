@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using AstrenEmpower.ViewModels;
 using Xamarin.Forms;
 
 namespace AstrenEmpower.Views
@@ -9,6 +9,7 @@ namespace AstrenEmpower.Views
     {
         public RisePage()
         {
+            BindingContext = new ProductDetailsViewModel();
             InitializeComponent();
         }
     }

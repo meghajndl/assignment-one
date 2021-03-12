@@ -1,5 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AstrenEmpower.Views.MessagesPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AstrenEmpower.Views.MessagesPage" Title="Messages">
     <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "*"/>
+                <RowDefinition Height = "5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = "*"/>
+            </Grid.ColumnDefinitions>
+            <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Hi there, Messages go here"/>
+                <Button Text="Click Me"/>
+                <BoxView Color="Violet"/>
+            </StackLayout>
+            <BoxView Grid.Row="1" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="2" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="3" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="4" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="5" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="6" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="7" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="8" Grid.Column="0" Color="Violet"/>
+            <BoxView Grid.Row="9" Grid.Column="0" Color="Violet"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
