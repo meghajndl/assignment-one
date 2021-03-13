@@ -6,9 +6,9 @@
 
     <TabbedPage.Children>
 
-        <NavigationPage Title="Browse">
+        <NavigationPage Title="Explore">
             <x:Arguments>
-                <views:ItemsPage />
+                <views:ExplorePage />
             </x:Arguments>
             <NavigationPage.Icon>
                 <OnPlatform x:TypeArguments="FileImageSource">

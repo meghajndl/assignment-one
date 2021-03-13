@@ -48,7 +48,7 @@
                             <FormattedString.Spans>
                                 <Span Text="Welcome to Astren Empower" />
                                 <Span Text=" " />
-                                <Span Text=": Furture is here!" FontAttributes="Bold" />
+                                <Span Text=": Future is here!" FontAttributes="Bold" />
                                 <Span Text="." />
                             </FormattedString.Spans>
                         </FormattedString>

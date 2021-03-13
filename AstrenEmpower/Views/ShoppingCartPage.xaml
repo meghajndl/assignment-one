@@ -3,8 +3,8 @@
              Title="{Binding pageTitle}">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text=" Number of Products :"/>
-        <Label Text="{Binding productsNum}"/>
+        <Label Text="Number of Products :"/>
+        <Label Text="{Binding productsNumber}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage> 
