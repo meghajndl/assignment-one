@@ -8,7 +8,6 @@ namespace AstrenEmpower.ViewModels
     public class ProductDetailsViewModel
     {
         public string pageTitle { get; set; }
-        public int productsNum { get; set; }
         public ObservableCollection<Products> productDetails { get; set; }
         public int productsNumber { get; set; }
 
